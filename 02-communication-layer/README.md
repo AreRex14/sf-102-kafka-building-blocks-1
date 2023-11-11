@@ -25,7 +25,7 @@ alias rpk="docker exec -ti redpanda-1 rpk"
 rpk cluster info
 
 # create and activate a Python virtual environment
-python3 -m venv
+python3 -m venv .
 source bin/activate
 
 # install the kafka-python dependency
